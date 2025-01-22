@@ -93,18 +93,19 @@
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    gap: 100px;
 }
 
 .artwork {
-    width: 500px;
-    height: auto;
+    height: 300px;
+    width: auto;
 }
 
 .centeredArt {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 800px;
+    max-width: 500px;
 }
 
 a {
@@ -115,6 +116,15 @@ a {
 .marginTop {
     margin-top: 150px;
     font-weight: 700 !important;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+
+.marginTop2 {
+    margin-top: 50px;
+    font-weight: 700 !important;
+    text-align: center;
 }
 
 .bold {
